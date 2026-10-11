@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+
+# Eclipse a další IDE (bin/ obsahuje jen přeložené třídy)
+bin/
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# Výstupy lokálního testování (NATT)
+natt-logs/
+test_report.html
+
+# Přeložené třídy
+*.class

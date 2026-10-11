@@ -1,0 +1,9 @@
+* text=auto
+
+# gradlew se spouští na Linuxu v CI, musí mít konce řádků LF (s CRLF by nešel spustit)
+gradlew text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Binární soubory se nikdy nepřevádějí
+*.jar binary
